@@ -1,0 +1,54 @@
+h1 {
+
+    color: #025157;
+
+}
+
+.container-header {
+
+    margin-top: 40px;
+    margin-left: 20px;
+    margin-right: 20px;
+    background-color: yellow;
+    font-size: 0;
+}
+
+.container-header > *{
+
+    display: inline-block;
+    font-size:16px;
+    vertical-align: middle;
+    height: 100%;
+    line-height: 45px;
+
+}
+.logo {
+    width: 10%;
+    height: 50px;
+    
+}
+/*anidación*/
+.logo > img {
+height: 100%;
+}
+
+.container-nav {
+width: 70%;
+text-align: center;
+color: #025157;
+font-weight: 500;
+background-color: seagreen;
+
+}
+
+li {
+    display:inline;
+}
+.actions {
+width: 15%;
+text-align: right;
+font-size: 14px;
+font-weight: 600;
+background-color: blue;
+}
+

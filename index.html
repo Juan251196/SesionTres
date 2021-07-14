@@ -6,10 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
     <title>Matcha</title>
-    <link
-      href="https://fonts.googleapis.com/css2?family=Alegreya&display=swap"
-      rel="stylesheet"
-    />
+    <link href="https://fonts.googleapis.com/css2?family=Alegreya+Sans:wght@900&display=swap" rel="stylesheet">
     <link
       href="https://fonts.googleapis.com/css2?family=Slabo+27px&display=swap"
       rel="stylesheet"
@@ -38,8 +35,8 @@
       </nav>
 
       <div class="actions">
-        <button class="SignIn">Sign In</button>
-        <button class="Trial">Start free trial</button>
+        <a href="#" class="SignIn">Sign In</a>
+        <button class="Trial" >Start free trial</button>
       </div>
     </header>
 
@@ -50,7 +47,7 @@
     </h4>
 
     <form class="container-tryit">
-      <input type="email" />
+      <input type="email" value="Enter email address" />
       <button type="submit">Try it now &rarr;</button>
     </form>
 
@@ -63,8 +60,14 @@
       <img src="capterra.jpg" alt="Estrellas" />
     </figure>
 
+    <figure class="intro">
+      <img src="img2.png" alt="intro" />
+    </figure>
+
     <section class="container-section">
-      <video class="video-exp" controls>
+      <div class="video">
+        <video class="video-exp" controls>
+        
         <source
           type="video/webm"
           src="https://cdn.videvo.net/videvo_files/video/premium/video0036/small_watermarked/computer_code00_preview.webm
@@ -75,7 +78,8 @@
           src="https://cdn.videvo.net/videvo_files/video/premium/video0036/small_watermarked/computer_code00_preview.mp4"
         />
       </video>
-
+      <img src="see_how_it_works.png" alt="img3" class="img3">
+      </div>
       <article>
         <h2>
           Publish to your blog in <br />
@@ -92,8 +96,8 @@
 
         <h5>Start publishing today:</h5>
 
-        <form>
-          <input type="email" />
+        <form class="container-submit">
+          <input type="email" value="Enter email" />
           <button type="submit">Start My Trial</button>
         </form>
       </article>
